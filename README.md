@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-cartesian-product/tags). For example,
+
+```javascript
 import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@v0.1.0-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var out = cartesianProduct( x1, x2 );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@esm/index.mjs';
-import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@v0.1.0-esm/index.mjs';
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@esm/index.mjs';
 
 var x1 = linspace( 0, 5, 6 );
 var x2 = linspace( 10, 15, 6 );
