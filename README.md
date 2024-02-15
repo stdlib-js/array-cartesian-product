@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-cartesian-product/tags). For example,
+
+```javascript
 import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@v0.2.0-deno/mod.js';
 ```
 
@@ -85,7 +90,7 @@ var out = cartesianProduct( x1, x2 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@deno/mod.js';
-import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@v0.2.0-deno/mod.js';
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@deno/mod.js';
 
 var x1 = linspace( 0, 5, 6 );
 var x2 = linspace( 10, 15, 6 );
