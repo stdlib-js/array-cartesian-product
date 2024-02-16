@@ -120,6 +120,13 @@ var out = cartesianProduct( x1, x2 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-cartesian-power`][@stdlib/array/cartesian-power]</span><span class="delimiter">: </span><span class="description">return the Cartesian power.</span>
+-   <span class="package-name">[`@stdlib/array-cartesian-square`][@stdlib/array/cartesian-square]</span><span class="delimiter">: </span><span class="description">return the Cartesian square.</span>
+
 </section>
 
 <!-- /.related -->
@@ -163,8 +170,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-cartesian-product.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-cartesian-product
 
-[test-image]: https://github.com/stdlib-js/array-cartesian-product/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/array-cartesian-product/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/array-cartesian-product/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-cartesian-product/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-cartesian-product/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-cartesian-product?branch=main
@@ -197,6 +204,14 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-cartesian-product/main/LICENSE
 
 [cartesian-product]: https://en.wikipedia.org/wiki/Cartesian_product
+
+<!-- <related-links> -->
+
+[@stdlib/array/cartesian-power]: https://github.com/stdlib-js/array-cartesian-power
+
+[@stdlib/array/cartesian-square]: https://github.com/stdlib-js/array-cartesian-square
+
+<!-- </related-links> -->
 
 </section>
 
