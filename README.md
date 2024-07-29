@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@esm/index.mjs';
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@v0.2.2-esm/index.mjs';
 ```
 
 #### cartesianProduct( x1, x2 )
@@ -90,7 +90,7 @@ var out = cartesianProduct( x1, x2 );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@esm/index.mjs';
-import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@esm/index.mjs';
+import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-cartesian-product@v0.2.2-esm/index.mjs';
 
 var x1 = linspace( 0, 5, 6 );
 var x2 = linspace( 10, 15, 6 );
