@@ -37,16 +37,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-cartesian-product": "^0.2.1",
+    "@stdlib/array-base-cartesian-product": "^0.2.2",
     "@stdlib/assert-is-collection": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-base-to-accessor-array": "^0.2.1",
+    "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-linspace": "^0.2.1",
-    "@stdlib/array-zero-to": "^0.2.1",
+    "@stdlib/array-zero-to": "^0.2.2",
     "@stdlib/assert-is-array-array": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
