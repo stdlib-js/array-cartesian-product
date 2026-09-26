@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,28 +16,33 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection, AccessorArrayLike } from '@stdlib/types/array';
 
 /**
-* Return the Cartesian product.
+* Returns the Cartesian product.
 *
-* @module @stdlib/array-cartesian-product
+* ## Notes
+*
+* -   If provided one or more empty arrays, the function returns an empty array.
+*
+* @param x1 - first input array
+* @param x2 - second input array
+* @returns Cartesian product
 *
 * @example
-* var cartesianProduct = require( '@stdlib/array-cartesian-product' );
-*
 * var x1 = [ 1, 2, 3 ];
 * var x2 = [ 4, 5 ];
 *
 * var out = cartesianProduct( x1, x2 );
 * // returns [ [ 1, 4 ], [ 1, 5 ], [ 2, 4 ], [ 2, 5 ], [ 3, 4 ], [ 3, 5 ] ]
 */
-
-// MAIN //
-
-var main = require( './main.js' );
+declare function cartesianProduct<T = unknown, U = unknown>( x1: Collection<T> | AccessorArrayLike<T>, x2: Collection<U> | AccessorArrayLike<U> ): Array<[T, U]>;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = cartesianProduct;
